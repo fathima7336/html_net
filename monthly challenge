@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Jadoo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hotels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Flights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bookings</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">EN</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="card-group">
+  <div class="card" style="width: 50%; height: 700px; border: none;">
+    <div class="card-body" style="display: flex; flex-direction: column; justify-content: center; padding: 60px;">
+      <p class="card-text" style="color: #d6714f; font-weight: 600; letter-spacing: 1px; font-size: 13px; margin-bottom: 12px;">BEST DESTINATIONS AROUND THE WORLD</p>
+      <h5 class="card-title" style="font-size: 42px; font-weight: 700; color: #1a1a3d; line-height: 1.2; margin-bottom: 20px;">
+        Travel, <span style="text-decoration: line-through; text-decoration-color: #e07856;">enjoy</span> and live a new and full life
+      </h5>
+      <p class="card-text" style="color: #6b6b7b; font-size: 15px; line-height: 1.6;">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+      <p class="card-text">
+        <small class="text-body-secondary" style="display: inline-block; background-color: #f5a623; color: #1a1a3d; font-weight: 600; padding: 12px 28px; border-radius: 6px;">Find out more</small>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="width: 50%; height: 700px; border: none; background-color: #fbe4cc; position: relative; overflow: hidden;">
+   
+
+
+    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQY1SPu7vo0-0rDTfvJc4LQdmSYnKs_DE4IPCOQsO8g_gfJncze" class="card-img-top"  style="width: 100%; height: 100%; object-fit: cover;">
+    <div class="card-body" style="position: absolute; top: 40%; left: 50%; transform: translateX(-50%);">
+     
+    </div>
+  </div>
+</div>
+
+
+
+<div style="text-align: center; padding: 60px 20px 20px;">
+  <p style="color: #e07856; font-weight: 700; letter-spacing: 2px; font-size: 14px; margin-bottom: 10px;">CATEGORY</p>
+  <h1 style="font-size: 48px; font-weight: 700; color: #1a1a3d; font-family: Georgia, serif;">We Offer Best Services</h1>
+</div>
+
+
+
+<div class="card-group">
+  <div class="card" style="border: none; text-align: center; padding: 20px;">
+    <img src="data:image/png;base64,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" class="card-img-top" alt="Weather satellite icon" style="width: 60px; height: 60px; margin: 0 auto 20px;">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 20px; font-weight: 700; color: #1a1a3d;">Calculated Weather</h5>
+      <p class="card-text" style="color: #6b6b7b; font-size: 15px; line-height: 1.6;">Built Wicket longer admire do barton vanity itself do in it.</p>
+    </div>
+  </div>
+  <div class="card" style="border: none; text-align: center; padding: 20px; background-color: #fbe4cc; border-radius: 12px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTveA_CQovN4BVrujOfzLcJ2RYdTJKYB_0Fyv3UTB00fQ&s=10" class="card-img-top" alt="Airplane icon" style="width: 60px; height: 60px; margin: 0 auto 20px;">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 20px; font-weight: 700; color: #1a1a3d;">Best Flights</h5>
+      <p class="card-text" style="color: #6b6b7b; font-size: 15px; line-height: 1.6;">Engrossed listening. Park gate sell they west hard for the.</p>
+    </div>
+  </div>
+  <div class="card" style="border: none; text-align: center; padding: 20px;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTveA_CQovN4BVrujOfzLcJ2RYdTJKYB_0Fyv3UTB00fQ&s=10" class="card-img-top" alt="Microphone icon" style="width: 60px; height: 60px; margin: 0 auto 20px;">
+    <div class="card-body">
+      <h5 class="card-title" style="font-size: 20px; font-weight: 700; color: #1a1a3d;">Local Events</h5>
+      <p class="card-text" style="color: #6b6b7b; font-size: 15px; line-height: 1.6;">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div style="text-align: center; padding: 60px 20px 40px;">
+  <p style="color: #7b7b8b; font-weight: 700; letter-spacing: 1px; font-size: 14px; margin-bottom: 10px;">Top Selling</p>
+  <h1 style="font-size: 44px; font-weight: 700; color: #1a1a3d; font-family: Georgia, serif;">Top Destinations</h1>
+</div>
+
+<div class="card-group" style="max-width: 1100px; margin: 0 auto; gap: 20px;">
+  <div class="card" style="border: none; border-radius: 12px; overflow: hidden;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOc_YB9RfQ-SeSdccYEgab-WMGgsNbgJl09Ci8wQutw&s=10" class="card-img-top" alt="Colosseum, Rome" style="height: 350px; object-fit: cover;">
+  </div>
+  <div class="card" style="border: none; border-radius: 12px; overflow: hidden;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpB8TX6Jd8-hqMJQB3dQpEwcT8pcUp0USxSZ4oUsleLg&s=10" class="card-img-top" alt="Big Ben, London" style="height: 350px; object-fit: cover;">
+  </div>
+  <div class="card" style="border: none; border-radius: 12px; overflow: hidden;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVYZaEEuDgg2-UVbYPnKUd6CB7WveSCvecAZDfoXAXg&s=10" class="card-img-top" alt="Helsinki Cathedral" style="height: 350px; object-fit: cover;">
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
